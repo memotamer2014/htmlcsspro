@@ -323,5 +323,40 @@ footer p button{
       
     
     }
+    
+@media screen and (max-width: 600px) {
+
+    .imagediv .position{
+       
+        top: 50px;
+        
+        
+    
+    }
+   
+    .imagediv .position h1{
+        font-size: 50px;
+       
+    }
+
+    main #leftside,main #rightside{
+      
+        width: 100%;
+        float: none;
+      
+    
+    }
+}
+@media screen and (max-width: 600px){
+    header section{
+        top: 20%;
+    }
+    header section h1{
+        font-size: 40px;
+    }
+    header section h3{
+        font-size: 30px;
+    }
+}
 
 }
